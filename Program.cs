@@ -83,6 +83,11 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("ARE THESE INTEGERS EQUAL?\n");
 
             // Enter your solution here
+            Console.Write(;
+
+
+
+
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
