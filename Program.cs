@@ -116,11 +116,20 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("EVEN OR ODD?\n");
 
             // Enter your solution here
-            Console.WriteLine("Give me a number");
+            {
+                int n;
+                Console.WriteLine("Enter a number: ");
+                n = Convert.ToInt32(Console.ReadLine());
+                if (n % 2 == 0)
+                    Console.WriteLine(n + "is an even number");
+                else
+                Console.WriteLine(n + "is an odd number");
+                       
+            }
+                 
             
 
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
+            
         }
 
         static void VowelOrConsonant()
@@ -132,6 +141,25 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("VOWEL OR CONSONANT?\n");
 
             // Enter your solution here
+            char userLetter;
+            Console.WriteLine("Choose a letter of the Alphabet between A and D, cap only: ");
+            char userLetter = Console.ReadLine());
+            switch (userLetter)
+            {
+                case 'A':
+                    Console.WriteLine("The letter is a vowel");
+                    break;
+                case 'B':
+                    Console.WriteLine("The letter is a consanent");
+                    break;
+                case 'C':
+                    Console.WriteLine("The letter is a consanent");
+                    break;
+                case 'D':
+                    Console.WriteLine("the letter is a consanent");
+                    break;
+            }
+
 
 
             Console.Write("Press enter to return to the Main Menu");
