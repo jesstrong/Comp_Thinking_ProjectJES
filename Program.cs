@@ -83,11 +83,25 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("ARE THESE INTEGERS EQUAL?\n");
 
             // Enter your solution here
-            Console.Write(;
 
+            int paperclips, pencils; 
+            
 
+            Console.WriteLine("How many paperclips do you use a day?");
+            int a = Convert Console.ReadLine();
 
+            Console.WriteLine("How many pencils do you go through a day?");
+            Console.ReadLine();
 
+            if (paperclips == pencils);
+                // if paperclips equal number of pencils, user will see this:
+                Console.WriteLine("Congrats you have just as many paperclips as pencils.");
+            if (paperclips != pencils);
+                // if paperclips does not equal number of pencils, user will see this:
+                Console.WriteLine("You should reduce your office supplies to 1 pencil and 1 paperclip.");
+
+                                             
+                   
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
@@ -102,6 +116,8 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("EVEN OR ODD?\n");
 
             // Enter your solution here
+            Console.WriteLine("Give me a number");
+            
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
@@ -116,6 +132,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("VOWEL OR CONSONANT?\n");
 
             // Enter your solution here
+
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
